@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  bars-fun-api:
+    build: ./
+    command: ./bars-fun-api
+    image: user-service
+    ports:
+      - "8080:8080"
